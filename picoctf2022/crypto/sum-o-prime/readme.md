@@ -32,7 +32,12 @@ ax^2+bx+c=0の解をalpha,betaとしたとき
 alpha+beta=-b/a
 alpha*beta=c/a
 ```
-つまりaを1で固定して置き換えた
+aを1で固定して変形して
+```
+b=-(alpha+beta)
+c=alpha*beta
+```
+これで置き換えた
 ```
 x^2-(alpha+beta)*x+(alpha*beta)=0
 -> x^2-(p+q)*x+(p*q)=0
