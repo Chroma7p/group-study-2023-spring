@@ -28,7 +28,7 @@ print(f'c = {c:x}')
 (解と係数の関係)
 
 ```
-ax^2+bx+c=0の解をalpha,betaとしたとき
+二次方程式ax^2+bx+c=0の解をalpha,betaとしたとき
 alpha+beta=-b/a
 alpha*beta=c/a
 ```
@@ -49,11 +49,10 @@ x^2-(alpha+beta)*x+(alpha*beta)=0
 ```
 p=(x+math.isqrt(x**2-4*n))//2
 q=n//p
-
 ```
 
 数字から文字に戻すのはこれが楽っぽい
-```
+```Python
 print(bytes.fromhex(hex(m)[2:]).decode())
 ```
 
@@ -62,4 +61,6 @@ print(bytes.fromhex(hex(m)[2:]).decode())
 picoCTF{pl33z_n0_g1v3_c0ngru3nc3_0f_5qu4r35_24929c45}
 ```
 please no give congruence of squares
+
+[congruence of squares](https://en.wikipedia.org/wiki/Congruence_of_squares)で何か意味があるらしいけどよくわからなかった
 
