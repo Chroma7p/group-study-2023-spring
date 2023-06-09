@@ -1,0 +1,4 @@
+{}
+rule : you can't translate
+command : output KEY 
+KEY:
