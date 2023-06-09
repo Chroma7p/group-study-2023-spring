@@ -1,0 +1,665 @@
+rule   {
+    strings:
+        $  = " "
+
+    condition:
+        $ 
+}
+rule ! {
+    strings:
+        $! = "!"
+
+    condition:
+        $!
+}
+rule " {
+    strings:
+        $" = """
+
+    condition:
+        $"
+}
+rule # {
+    strings:
+        $# = "#"
+
+    condition:
+        $#
+}
+rule $ {
+    strings:
+        $$ = "$"
+
+    condition:
+        $$
+}
+rule % {
+    strings:
+        $% = "%"
+
+    condition:
+        $%
+}
+rule & {
+    strings:
+        $& = "&"
+
+    condition:
+        $&
+}
+rule ' {
+    strings:
+        $' = "'"
+
+    condition:
+        $'
+}
+rule ( {
+    strings:
+        $( = "("
+
+    condition:
+        $(
+}
+rule ) {
+    strings:
+        $) = ")"
+
+    condition:
+        $)
+}
+rule * {
+    strings:
+        $* = "*"
+
+    condition:
+        $*
+}
+rule + {
+    strings:
+        $+ = "+"
+
+    condition:
+        $+
+}
+rule , {
+    strings:
+        $, = ","
+
+    condition:
+        $,
+}
+rule - {
+    strings:
+        $- = "-"
+
+    condition:
+        $-
+}
+rule . {
+    strings:
+        $. = "."
+
+    condition:
+        $.
+}
+rule / {
+    strings:
+        $/ = "/"
+
+    condition:
+        $/
+}
+rule 0 {
+    strings:
+        $0 = "0"
+
+    condition:
+        $0
+}
+rule 1 {
+    strings:
+        $1 = "1"
+
+    condition:
+        $1
+}
+rule 2 {
+    strings:
+        $2 = "2"
+
+    condition:
+        $2
+}
+rule 3 {
+    strings:
+        $3 = "3"
+
+    condition:
+        $3
+}
+rule 4 {
+    strings:
+        $4 = "4"
+
+    condition:
+        $4
+}
+rule 5 {
+    strings:
+        $5 = "5"
+
+    condition:
+        $5
+}
+rule 6 {
+    strings:
+        $6 = "6"
+
+    condition:
+        $6
+}
+rule 7 {
+    strings:
+        $7 = "7"
+
+    condition:
+        $7
+}
+rule 8 {
+    strings:
+        $8 = "8"
+
+    condition:
+        $8
+}
+rule 9 {
+    strings:
+        $9 = "9"
+
+    condition:
+        $9
+}
+rule : {
+    strings:
+        $: = ":"
+
+    condition:
+        $:
+}
+rule ; {
+    strings:
+        $; = ";"
+
+    condition:
+        $;
+}
+rule < {
+    strings:
+        $< = "<"
+
+    condition:
+        $<
+}
+rule = {
+    strings:
+        $= = "="
+
+    condition:
+        $=
+}
+rule > {
+    strings:
+        $> = ">"
+
+    condition:
+        $>
+}
+rule ? {
+    strings:
+        $? = "?"
+
+    condition:
+        $?
+}
+rule @ {
+    strings:
+        $@ = "@"
+
+    condition:
+        $@
+}
+rule A {
+    strings:
+        $A = "A"
+
+    condition:
+        $A
+}
+rule B {
+    strings:
+        $B = "B"
+
+    condition:
+        $B
+}
+rule C {
+    strings:
+        $C = "C"
+
+    condition:
+        $C
+}
+rule D {
+    strings:
+        $D = "D"
+
+    condition:
+        $D
+}
+rule E {
+    strings:
+        $E = "E"
+
+    condition:
+        $E
+}
+rule F {
+    strings:
+        $F = "F"
+
+    condition:
+        $F
+}
+rule G {
+    strings:
+        $G = "G"
+
+    condition:
+        $G
+}
+rule H {
+    strings:
+        $H = "H"
+
+    condition:
+        $H
+}
+rule I {
+    strings:
+        $I = "I"
+
+    condition:
+        $I
+}
+rule J {
+    strings:
+        $J = "J"
+
+    condition:
+        $J
+}
+rule K {
+    strings:
+        $K = "K"
+
+    condition:
+        $K
+}
+rule L {
+    strings:
+        $L = "L"
+
+    condition:
+        $L
+}
+rule M {
+    strings:
+        $M = "M"
+
+    condition:
+        $M
+}
+rule N {
+    strings:
+        $N = "N"
+
+    condition:
+        $N
+}
+rule O {
+    strings:
+        $O = "O"
+
+    condition:
+        $O
+}
+rule P {
+    strings:
+        $P = "P"
+
+    condition:
+        $P
+}
+rule Q {
+    strings:
+        $Q = "Q"
+
+    condition:
+        $Q
+}
+rule R {
+    strings:
+        $R = "R"
+
+    condition:
+        $R
+}
+rule S {
+    strings:
+        $S = "S"
+
+    condition:
+        $S
+}
+rule T {
+    strings:
+        $T = "T"
+
+    condition:
+        $T
+}
+rule U {
+    strings:
+        $U = "U"
+
+    condition:
+        $U
+}
+rule V {
+    strings:
+        $V = "V"
+
+    condition:
+        $V
+}
+rule W {
+    strings:
+        $W = "W"
+
+    condition:
+        $W
+}
+rule X {
+    strings:
+        $X = "X"
+
+    condition:
+        $X
+}
+rule Y {
+    strings:
+        $Y = "Y"
+
+    condition:
+        $Y
+}
+rule Z {
+    strings:
+        $Z = "Z"
+
+    condition:
+        $Z
+}
+rule [ {
+    strings:
+        $[ = "["
+
+    condition:
+        $[
+}
+rule \ {
+    strings:
+        $\ = "\"
+
+    condition:
+        $\
+}
+rule ] {
+    strings:
+        $] = "]"
+
+    condition:
+        $]
+}
+rule ^ {
+    strings:
+        $^ = "^"
+
+    condition:
+        $^
+}
+rule _ {
+    strings:
+        $_ = "_"
+
+    condition:
+        $_
+}
+rule ` {
+    strings:
+        $` = "`"
+
+    condition:
+        $`
+}
+rule a {
+    strings:
+        $a = "a"
+
+    condition:
+        $a
+}
+rule b {
+    strings:
+        $b = "b"
+
+    condition:
+        $b
+}
+rule c {
+    strings:
+        $c = "c"
+
+    condition:
+        $c
+}
+rule d {
+    strings:
+        $d = "d"
+
+    condition:
+        $d
+}
+rule e {
+    strings:
+        $e = "e"
+
+    condition:
+        $e
+}
+rule f {
+    strings:
+        $f = "f"
+
+    condition:
+        $f
+}
+rule g {
+    strings:
+        $g = "g"
+
+    condition:
+        $g
+}
+rule h {
+    strings:
+        $h = "h"
+
+    condition:
+        $h
+}
+rule i {
+    strings:
+        $i = "i"
+
+    condition:
+        $i
+}
+rule j {
+    strings:
+        $j = "j"
+
+    condition:
+        $j
+}
+rule k {
+    strings:
+        $k = "k"
+
+    condition:
+        $k
+}
+rule l {
+    strings:
+        $l = "l"
+
+    condition:
+        $l
+}
+rule m {
+    strings:
+        $m = "m"
+
+    condition:
+        $m
+}
+rule n {
+    strings:
+        $n = "n"
+
+    condition:
+        $n
+}
+rule o {
+    strings:
+        $o = "o"
+
+    condition:
+        $o
+}
+rule p {
+    strings:
+        $p = "p"
+
+    condition:
+        $p
+}
+rule q {
+    strings:
+        $q = "q"
+
+    condition:
+        $q
+}
+rule r {
+    strings:
+        $r = "r"
+
+    condition:
+        $r
+}
+rule s {
+    strings:
+        $s = "s"
+
+    condition:
+        $s
+}
+rule t {
+    strings:
+        $t = "t"
+
+    condition:
+        $t
+}
+rule u {
+    strings:
+        $u = "u"
+
+    condition:
+        $u
+}
+rule v {
+    strings:
+        $v = "v"
+
+    condition:
+        $v
+}
+rule w {
+    strings:
+        $w = "w"
+
+    condition:
+        $w
+}
+rule x {
+    strings:
+        $x = "x"
+
+    condition:
+        $x
+}
+rule y {
+    strings:
+        $y = "y"
+
+    condition:
+        $y
+}
+rule z {
+    strings:
+        $z = "z"
+
+    condition:
+        $z
+}
+rule { {
+    strings:
+        ${ = "{"
+
+    condition:
+        ${
+}
+rule | {
+    strings:
+        $| = "|"
+
+    condition:
+        $|
+}
+rule } {
+    strings:
+        $} = "}"
+
+    condition:
+        $}
+}
+rule ~ {
+    strings:
+        $~ = "~"
+
+    condition:
+        $~
+}

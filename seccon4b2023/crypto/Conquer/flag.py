@@ -1,0 +1,1 @@
+flag=b"ctf4b{this_is_dummy_flag_haha}"
